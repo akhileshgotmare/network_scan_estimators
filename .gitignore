@@ -1,4 +1,8 @@
 *.npy
 *.ipynb
+
 # Jupyter Notebook
 .ipynb_checkpoints
+
+*.graphml
+*.txt
