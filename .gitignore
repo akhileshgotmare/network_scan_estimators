@@ -1,5 +1,5 @@
 *.npy
-*.ipynb
+
 
 # Jupyter Notebook
 .ipynb_checkpoints
