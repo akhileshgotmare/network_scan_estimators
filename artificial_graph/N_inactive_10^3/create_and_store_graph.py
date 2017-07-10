@@ -31,13 +31,13 @@ c = list(np.random.randint(0,N_active,3*N_active))
 d = np.arange(0,N_active)
 d1 = list(np.hstack((d,d,d)))
 
-G.add_edges_from(list(zip(c,d1)))
+G.add_edges_from(list(zip(c,d1))) #adding edges within bigger group (subgraph with million nodes)
 
 b = list(np.random.randint(N_active, (N), 3*N_inactive))
 a = np.arange(N_active, (N))
 a1 = list(np.hstack((a,a,a)))
 
-G.add_edges_from(list(zip(a1,b))) 
+G.add_edges_from(list(zip(a1,b))) #adding edges within smaller group (subgraph with thousand nodes)
 
 print('all edges added')
 

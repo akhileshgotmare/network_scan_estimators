@@ -45,7 +45,8 @@ def run_exp_M_times(ind):
     N_active = pow(10,6)
     N_inactive = pow(10,3)
     
-    L_ic = np.random.randint(0,N_active,int(N_active/2)) # list of indices of inactive nodes in the active group
+    L_ic = np.random.randint(0,N_active,int(N_active/2)) # list of indices of inactive nodes in the 
+                                                         # bigger group (of million nodes)
     
     
     a = [None]*M
