@@ -1,4 +1,6 @@
-# Script to create a Graph with N_active = 10^6, N_inactive = 10^4
+# Script to create a Graph with N_active = 10^6, N_inactive = 10^3
+# Each node in the small subgraph connected to 3 random nodes in the same subgraph
+# Each node in the bigger subgraph connected to 3 random nodes in the same subgraph
 
 import numpy as np
 import networkx as nx
@@ -7,7 +9,7 @@ import random
 import time
 
 import sys
-sys.path.insert(0, '/home/gotmare/network_scan_estimators/')
+sys.path.insert(0,'/Users/akhileshgotmare/Desktop/Git_Junta/network_scan_estimators')
 
 from scanestimators import *
 
